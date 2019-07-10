@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="ScreenshotDemo.CustomListener"/>
+</listeners>
+	<test name="class">
+		<classes>
+			<class name="ScreenshotDemo.CustomListener" />
+			<class name="ScreenshotDemo.ScreenshotDemo" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

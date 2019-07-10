@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ScreenshotDemo.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="class(failed)">
+    <classes>
+      <class name="ScreenshotDemo.ScreenshotDemo">
+        <methods>
+          <include name="tc_3"/>
+          <include name="tc_2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ScreenshotDemo.ScreenshotDemo -->
+    </classes>
+  </test> <!-- class(failed) -->
+</suite> <!-- Failed suite [Suite] -->
